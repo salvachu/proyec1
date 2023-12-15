@@ -1,0 +1,17 @@
+
+*{
+    background-image: url('img1.jpg');
+    background-size:1000px ; 
+}
+.xd{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 20px;
+}
+
+.fondo{
+    background-color: rgba(0,0,0,0.5); /*solo al color*/ 
+    opacity: 0.1; /*le da transparencia a todo*/ 
+    background-image: url('img1.jpg');
+}

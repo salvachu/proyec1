@@ -1,0 +1,52 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+</head>
+
+<body>
+    <h1>Registro de Usuarios</h1>
+    <form id="registroForm">
+        <label for="nombre">Nombre de usuario:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+        <br>
+        <input type="button" value="Registrar" onclick="registrarUsuario()">
+    </form>
+
+    <script>
+        function registrarUsuario() {
+            var nombre = document.getElementById('nombre').value;
+            var contrasena = document.getElementById('contrasena').value;
+
+            var formData = {
+                "nombre": nombre,
+                "contrasena": contrasena
+            };
+
+            fetch('/registrar', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert('Registro exitoso');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>

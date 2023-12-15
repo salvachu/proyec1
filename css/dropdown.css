@@ -1,0 +1,55 @@
+
+.dropdown{
+    position: relative;
+    height: 50px;
+}
+
+.dropdown::before{ /*flechita*/
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 100;
+    width: 8px;
+    height: 8px;
+    border: 2px solid black;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.dropdown.active::before{ /*flechita*/
+    top: 10px;
+    transform:rotate(-225deg) ;
+}
+
+
+.dropdown .option{ /*desplegable*/
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 30px 30px rgb(0, 0,0, 00.5);
+    border-radius:10px;
+    overflow: hidden;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown.active .option{
+    display: block;
+}
+.dropdown .option div{
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.dropdown .option div:hover{ /*desplegable cuando le pasas el raton*/
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+

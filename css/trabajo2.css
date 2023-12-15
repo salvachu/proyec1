@@ -1,0 +1,124 @@
+
+body {
+    background: #530253 !important;
+    background-color: #530253 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.titulo-principal {
+    font-size: 1.65em; /* Tamaño más pequeño para el texto de arriba */
+    margin-bottom: 0.2em;
+}
+.titulo-secundario {
+    font-size: 4em; /* Tamaño más grande para el texto del medio */
+    margin-bottom: 0.5em;
+}
+.linea-blanca {
+    border-top: 2px solid white; /* Crea una línea blanca */
+    width: 70%; /* Ajusta el ancho según necesites */
+    margin: 20px auto; /* Centra la línea horizontalmente */
+}
+.parte1 {
+    padding-bottom: 20px;
+    background: url('aña56.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .starter-template {
+    text-align: center;
+    color: white;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.starter-template h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.starter-template h1 {
+    font-size: 3em; /* Tamaño de fuente grande, ajusta según tu preferencia */
+    margin-bottom: 20px;
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#navbar {
+    background-color: rgba(77, 3, 77, 0.2) !important; /* Totalmente transparente */
+}
+
+#iniciar-sesion {
+    background-color: rgba(255, 0, 0, 0); /* 0 representa la opacidad completa, es decir, totalmente transparente */
+    border: none;
+}
+
+#iniciar-sesion:hover {  /* cuando le pasas el mouse:hover */
+    color:violet; 
+}
+
+.btn:focus,.btn:active {  /* cuando clicas */
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#registrarse {
+    background-color: rgba(255, 0, 0, 0); /* 0 representa la opacidad completa, es decir, totalmente transparente */
+}
+
+#registrarse:hover {  /* cuando le pasas el mouse:hover */
+    color: violet; 
+    border-color: violet;
+}
+
+#boton-eventos {
+    color: white;
+    border-color: white;
+    background-color: rgba(255, 0, 0, 0);
+    margin: 10px 0px;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#boton-eventos:hover {  /* cuando le pasas el mouse:hover */
+    color: rgb(214, 10, 214); 
+    border-color: rgb(185, 10, 185);
+}
+
+.parte2 {
+    min-height: 100vh;
+    padding: 50px 0;
+    background-color: #fff; /* Cambia el color de fondo si lo deseas */
+    color: #333; /* Cambia el color del texto si lo deseas */
+}
+
+.btn-secondary.dropdown-toggle {
+    color: #FFFFFF; /* Blanco */
+}
+
+.starter-template2 {
+}
+
+#nav-dropdown .dropdown-toggle {
+}
+
+#nav-dropdown .dropdown-menu {
+    background-color: #370566; /* Fondo violeta */
+}
+
+#nav-dropdown .dropdown-item {
+    color: #FFFFFF; /* Letras blancas */
+}
+
+#nav-dropdown .dropdown-item:hover, #nav-dropdown .dropdown-item:focus {
+    background-color: #8a20d6; /* Fondo morado al hacer clic */
+}

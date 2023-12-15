@@ -1,0 +1,28 @@
+#jumbo{
+    background: -webkit-linear-gradient(left,#41f497,#41dff4);
+    background: -o-linear-gradient(left,#41f497,#41dff4);
+    background: -moz-linear-gradient(left,#41f497,#41dff4);
+    background: linear-gradient(left,#41f497,#41dff4);
+}
+
+#titular{
+    color: #41f497;
+}
+
+#titular2{
+    color: #41dff4;
+}
+
+textarea{
+    border: 1px solid #41f497 !important;
+}
+
+.recordatorio{
+    padding: 0.5em;
+    background-color: #41dff4;
+    color: white;
+}
+
+#boton_guardar{
+    
+}

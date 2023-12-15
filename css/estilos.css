@@ -1,0 +1,64 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    text-align: center;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+
+.agrupar{
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    padding : 100px;
+}
+
+.header{
+    background: green;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: left;
+}
+
+
+.menu{
+    background: blue;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+
+
+.section{
+    background: yellow;
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+.columna{
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 20px 0;
+}
+
+.pie{
+    clear: both;
+}

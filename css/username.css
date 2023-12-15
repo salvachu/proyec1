@@ -1,0 +1,51 @@
+.formulario form{
+    padding: 0 60px;/* hace mas chico todo o lo e nsancha*/
+    box-sizing: border-box; 
+}
+
+form .username{
+    position: relative; /*importante*/
+    border-bottom: 2px solid black;
+    margin: 30px 0 ;
+}
+
+.username input{/*le quita los bordes al input*/
+    width: 100%; 
+    padding: 0 5;
+    height: 40px ;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{ /*importante*/
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(0, 0, 0);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username input:valid ~ label { /*animacion*/
+    top: -5px;
+    left: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 12px; 
+    transition: all 0.5s ease;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{ /*animacion*/
+    font-size: 12px; 
+    top: -5px;
+    color: rgb(0, 0, 0);
+}
+
+.username input:valid ~ span::before,
+.username input:valid ~ span::before {
+    width: 100%;
+}
