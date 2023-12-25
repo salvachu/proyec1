@@ -3,7 +3,7 @@ function desplegar(num) {
     for (var i = 0; i < num; i++) {
         let a = 0;
 
-    for (let divisor = 2; divisor <= 5; divisor++) {
+    for (let divisor = 2; divisor <= 6; divisor++) {
         if (i % divisor === 0) {
             a = divisor;
             break;
@@ -15,7 +15,7 @@ function desplegar(num) {
         a = 1;
     }
 
-        html += '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">';
+        html += '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">';
         html += '    <div class="card">';
         html += '    <a href="pagina_especifica.html?id=' + i + '&a=' + a + '" class="img-link">';
         html += '            <figure>';
@@ -23,7 +23,7 @@ function desplegar(num) {
         html += '            </figure>';
         html += '            <div class="contenido-card">';
         html += '                <h3>disco'+(i+1)+'</h3>';
-        html += '                <p>10 de diciembre 2023</p>';
+        html += '                 <p><i class="fa fa-calendar" aria-hidden="true"></i> 10 de diciembre 2023</p>';
         html += '            </div>';
         html += '        </a>';
         html += '    </div>';
@@ -32,6 +32,6 @@ function desplegar(num) {
     document.getElementById('desplegar').innerHTML = html;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    desplegar(20);
-}, false);
+    document.addEventListener('DOMContentLoaded', function () {
+        desplegar(9);
+    }, false);

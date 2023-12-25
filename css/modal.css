@@ -1,0 +1,46 @@
+body{
+    background: #120B28;
+}
+.modal-content{
+    border-radius: 20px;
+    background: #1C113F ;
+    color: white;
+    height: 450px;
+    width: 400px;
+}
+.cerrar i{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+.cerrar i:hover{
+    color: #E8619A;
+    
+}
+
+.modal-header{
+    position: relative;
+    color: white;
+    border: none;
+    top: 15px;
+}
+
+.fa.fa-times {
+    font-size:30px;
+}
+
+.modal-body{
+    position: relative;
+    bottom: 0px;
+    color: white;
+}
+.formulario{
+    position: relative;
+    top: -36px;
+}
+
+#exampleModalLabel{
+    position: relative;
+    left: 9.3px;
+}

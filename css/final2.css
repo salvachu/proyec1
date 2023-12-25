@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #120B28;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.parte1 {
+    padding-bottom: 0px;
+    background-color: #120B28;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #FFFFFF;
+  }
+
+#navbar {
+    background-color: rgba(77, 3, 77, 0) !important; /* Totalmente transparente */
+}
+
+.btn:focus,.btn:active {  /* cuando clicas */
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#registrarse {
+    background-color: rgba(255, 0, 0, 0); /* 0 representa la opacidad completa, es decir, totalmente transparente */
+}
+
+#registrarse:hover {  /* cuando le pasas el mouse:hover */
+    color: #E8619A; 
+    border-color: #E8619A;
+}
+
+#nav-dropdown .dropdown-menu {
+    background-color: #34247c; /* Fondo violeta */
+}
+
+#nav-dropdown .dropdown-item {
+    color: #FFFFFF; /* Letras blancas */
+}
+
+#nav-dropdown .dropdown-item:hover, #nav-dropdown .dropdown-item:focus {
+    background-color: #34247c;
+    color: #E8619A; /* Fondo morado al hacer clic */
+}
+
+
+.modal-open {
+    padding-right: 0 !important;
+}
+  
+#btn2{
+    background-color: #120B28;
+    border-color: #120B28;
+}
+
+#btn2:hover{
+    background-color: #34247c ;
+    border-color: #34247c ;
+}
+

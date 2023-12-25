@@ -1,0 +1,175 @@
+body {
+    background-color:#120B28;
+    color: white; /* Fondo rojo claro para xs */
+    min-height: 100vh;
+}
+#btn2{
+    margin-left: 45px;/* espaciado del btn derecho NO CAMBIAR */
+}
+
+@media (max-width: 575.98px) {
+body {
+    padding-top: 14%; /* Fondo rojo claro para xs */
+}
+.n1 {
+margin-top: 1vh;
+margin-bottom: 1vh;
+top: 0%; /* Ajusta según sea necesario */
+}
+
+#btn2{
+    margin-left: 32px;/* espaciado del btn derecho NO CAMBIAR */
+}
+
+
+/* Estilos para la palabra "disco 1" */
+.n2 {
+    margin-top: 1vh;
+    margin-bottom: 0vh;/* Ajusta según sea necesario */
+}
+
+/* Estilos para la imagen */
+.custom-img{
+    width: 96%;
+}
+
+.der{
+    margin: 0% 2%;
+}
+}
+
+/* Estilos para pantallas pequeñas (576px - 767.98px) - Clase sm */
+@media (min-width: 576px) and (max-width: 767.98px) {
+body {
+    padding-top: 10%; /* Fondo verde claro para sm */
+}
+
+#btn2{
+    margin-left: 32px;/* espaciado del btn derecho NO CAMBIAR */
+}
+
+.n1 {
+margin-top: 1vh;
+margin-bottom: 1vh;
+top: 0%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la palabra "disco 1" */
+.n2 {
+    margin-top: 1vh;
+    margin-bottom: 0vh;/* Ajusta según sea necesario */
+}
+
+/* Estilos para la imagen */
+.custom-img{
+    width: 96%;
+}
+
+.der{
+    margin: 0% 2%;
+}
+}
+
+/* Estilos para pantallas medianas (768px - 991.98px) - Clase md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+body {
+    padding-top: 2vh !important; /* Fondo azul claro para md */
+}
+
+.n1 {
+margin-top: 2vh;
+margin-bottom: 2vh;
+top: 0%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la palabra "disco 1" */
+.n2 {
+    margin-top: 3vh;
+    margin-bottom: 2vh;/* Ajusta según sea necesario */
+}
+
+/* Estilos para la imagen */
+.custom-img{
+    width: 96%;
+    height: auto;
+}
+
+.der{
+    margin: 0% 2%;
+}
+}
+
+/* Estilos para pantallas grandes (992px y más) - Clase lg */
+@media (min-width: 992px) and (max-width: 1500px){
+body {
+    padding-top: 17vh;
+}
+
+.n1 {
+position: relative;
+margin-top: 3vh;
+margin-bottom: 0vh;
+top: 0.5%;
+left: 10%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la palabra "disco 1" */
+.n2 {
+    position: relative;
+    top: 8% !important;
+    left: 10%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la imagen */
+.custom-img{
+    position: relative;
+    top: 100%;
+    width: 300px;
+    height: 300px;
+    left: 10%;
+}
+
+.der{
+    margin: 0 4%;
+    position: relative;
+    left: 2%;
+}
+}
+
+/* Estilos para pantallas grandes (992px y más) - Clase lg */
+@media (min-width: 1501px) {
+
+body {
+    padding-top: 19vh;
+}
+
+.n1 {
+position: relative;
+margin-top: -5.15vh;
+margin-bottom: 0vh;
+top: -2000% !important;
+left: 10%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la palabra "disco 1" */
+.n2 {
+    position: relative;
+    top: 10% !important;
+    left: 10%; /* Ajusta según sea necesario */
+}
+
+/* Estilos para la imagen */
+.custom-img{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 1.px;
+    left: 10%;
+}
+
+.der{
+    margin: 0 4%;
+    position: relative;
+    left: 2%;
+}
+}
